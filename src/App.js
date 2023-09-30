@@ -6,6 +6,10 @@ import Logo from './logo.png'
 
 function App() {
   return (
+    <>
+    <head>
+      <title>Segalla Workout</title>
+    </head>
     <Container>
       <div className='light x1'></div>
       <div className='light x2'></div>
@@ -93,6 +97,7 @@ function App() {
         </Accordion>
       </Row>
     </Container>
+    </>
   );
 }
 
