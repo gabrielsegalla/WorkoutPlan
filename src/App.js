@@ -2,14 +2,17 @@ import logo from './logo.svg';
 import './App.css';
 import { Accordion, Col, Container, Image, Row } from 'react-bootstrap';
 import Logo from './logo.png'
+import { useEffect } from 'react';
 
 
 function App() {
+
+  useEffect(() => {
+    document.title = 'Segalla Workout';
+  }, []);
+
   return (
     <>
-    <head>
-      <title>Segalla Workout</title>
-    </head>
     <Container>
       <div className='light x1'></div>
       <div className='light x2'></div>
