@@ -99,6 +99,84 @@ function App() {
           </Accordion.Item>
         </Accordion>
       </Row>
+
+      <Row>
+        <h1>Chest & Triceps</h1>
+        <Accordion className='accordionWorkout'>
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>Dumbbell chest press 4x15</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://cdn-0.weighttraining.guide/wp-content/uploads/2016/05/Dumbbell-Bench-Press-resized.png?ezimgfmt=ng%3Awebp%2Fngcb4" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="1" >
+            <Accordion.Header>Over Head single Dumbbell press 4x15</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://cdn-0.weighttraining.guide/wp-content/uploads/2017/08/seated-dumbbell-overhead-triceps-extension-resized.png?ezimgfmt=ng%3Awebp%2Fngcb4" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+
+        <Accordion className='accordionWorkout'>
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>Dumbbell flys 4x15</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://cdn-0.weighttraining.guide/wp-content/uploads/2016/11/dumbbell-fly-resized.png?ezimgfmt=ng%3Awebp%2Fngcb4" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="1" >
+            <Accordion.Header>Dumbbell Kickbacks 4x15</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://weighttraining.guide/wp-content/uploads/2016/05/Dumbbell-Kickback-resized.png" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+
+        <Accordion className='accordionWorkout'>
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>Rope press downs 4x20</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://fitnessvolt.com/wp-content/uploads/2019/04/triceps-rope-push-down-750x474.jpg" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="1" >
+            <Accordion.Header>Single arm Cable Chest Press 4x12</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://fitnessprogramer.com/wp-content/uploads/2021/12/One-Arm-Cable-Chest-Press.gif" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+
+        <Accordion className='accordionWorkout'>
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>Machine Chest Press 4x20</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://fitnessprogramer.com/wp-content/uploads/2021/02/Chest-Press-Machine.gif" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="1" >
+            <Accordion.Header>Machine Tricep Extensions 4x20</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://fitnessprogramer.com/wp-content/uploads/2021/04/Lever-Tricep-Extension.gif" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+
+        <Accordion className='accordionWorkout'>
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>Push ups 3x Failure</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://www.inspireusafoundation.org/wp-content/uploads/2022/11/push-up.gif" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="1" >
+            <Accordion.Header>Bench dips 3x Failure</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://fitnessprogramer.com/wp-content/uploads/2021/04/Triceps-Dips-on-Floor.gif" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+      </Row>
     </Container>
     </>
   );
