@@ -177,6 +177,90 @@ function App() {
           </Accordion.Item>
         </Accordion>
       </Row>
+
+
+
+      <Row>
+        <h1>Legs</h1>
+        <Accordion className='accordionWorkout'>
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>Leg press 30x20x10x10</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://www.mundoboaforma.com.br/wp-content/uploads/2020/12/pernas-leg-press-45-com-pes-distantes.gif" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+        <Accordion className='accordionWorkout'>
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>Extensions 20x15x12x12</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://fitnessprogramer.com/wp-content/uploads/2021/02/LEG-EXTENSION.gif" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="1" >
+            <Accordion.Header>Legs curls 20x15x12x12</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://fitnessprogramer.com/wp-content/uploads/2022/04/Lying-Dumbbell-Leg-Curl.gif" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+
+        <Accordion className='accordionWorkout'>
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>Dumbbell Sumo Squats 3x20</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://www.inspireusafoundation.org/wp-content/uploads/2021/10/dumbbell-sumo-squat.gif" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="1" >
+            <Accordion.Header>Weighted lunges 3x15sec</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://www.inspireusafoundation.org/wp-content/uploads/2022/01/dumbbell-lunges.gif" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+
+        <Accordion className='accordionWorkout'>
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>Standing Calf Raises (No weights) 3x20</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://www.inspireusafoundation.org/wp-content/uploads/2023/03/donkey-calf-raise.gif" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="1" >
+            <Accordion.Header>Seated calf raises 3x15</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://fitnessprogramer.com/wp-content/uploads/2021/06/Lever-Seated-Calf-Raise.gif" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+
+        <Accordion className='accordionWorkout'>
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>Adductor 3x25</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://fitnessprogramer.com/wp-content/uploads/2021/02/HIP-ADDUCTION-MACHINE.gif" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="1" >
+            <Accordion.Header>Abductor 3x25</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://fitnessprogramer.com/wp-content/uploads/2021/02/HiP-ABDUCTION-MACHINE.gif" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+
+
+        <Accordion className='accordionWorkout'>
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>Extensions 10x8x6x4x2</Accordion.Header>
+            <Accordion.Body>
+              <Image src="https://fitnessprogramer.com/wp-content/uploads/2021/02/LEG-EXTENSION.gif" className="imageWorkout"/>
+            </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+
+      </Row>
     </Container>
     </>
   );
